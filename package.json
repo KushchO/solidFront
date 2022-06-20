@@ -1,0 +1,24 @@
+{
+  "name": "vite-template-solid",
+  "version": "0.0.0",
+  "description": "",
+  "scripts": {
+    "start": "vite",
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^4.6.4",
+    "vite": "^2.9.9",
+    "vite-plugin-solid": "^2.2.6"
+  },
+  "dependencies": {
+    "@merged/solid-apollo": "^1.7.0",
+    "graphql-ws": "^5.9.0",
+    "solid-app-router": "^0.3.3",
+    "solid-js": "^1.4.2",
+    "solid-transition-group": "^0.0.10"
+  }
+}
