@@ -4,7 +4,6 @@ import { ApolloProvider } from "@merged/solid-apollo";
 import { client } from "./apollo.client";
 import "./index.css";
 import App from "./App";
-import { Suspense } from "solid-js";
 import { Router } from "solid-app-router";
 
 render(
